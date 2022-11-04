@@ -13,7 +13,10 @@ beforeAll(()=>{
 
 
 describe("game object contains correct keys", () =>{
-    test("score key exist",() =>{
+    test("currentGame key exist",() =>{
         expect("score" in game).toBe(true)
+    });
+    test("currentGame key exist",() =>{
+        expect("currentGame" in game).toBe(true)
     });
 });
